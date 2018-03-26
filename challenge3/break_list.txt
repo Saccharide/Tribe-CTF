@@ -1,3 +1,7 @@
+
+# gdb break point list
+
+
 break *fortune
 break *0x8049395
 # break after making the magic string
