@@ -1,0 +1,6 @@
+flags = "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID"
+
+flag = flags.split("|")
+
+for i in flag:
+	print "./raceme "+i

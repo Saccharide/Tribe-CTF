@@ -1,0 +1,9 @@
+./raceme CLONE_VM
+./raceme CLONE_FS
+./raceme CLONE_FILES
+./raceme CLONE_SIGHAND
+./raceme CLONE_THREAD
+./raceme CLONE_SYSVSEM
+./raceme CLONE_SETTLS
+./raceme CLONE_PARENT_SETTID
+./raceme CLONE_CHILD_CLEARTID

@@ -1,0 +1,18 @@
+break *fortune
+break *0x8049395
+# break after making the magic string
+break *0x0804947E
+# break before memcmp
+break *0x080494b1
+# break before len(str) of the magic string 
+break *0x0804948A
+
+#break before call eax
+break *0x804933d
+
+# break at adding buffer to eax at badfunction
+break *0x080492BA
+set follow-fork-mode child
+set disassembly-flavor intel
+disas fortune
+
