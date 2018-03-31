@@ -1,0 +1,31 @@
+# \x00\x00\x00\x00\x00\x00\x00\x08
+set disassembly-flavor intel
+
+
+# canary value first initialized to
+break *0x400BF7
+
+# before 1st _fread
+break *0x400C0E
+
+# right after 1st _fread
+break *0x400C18
+
+# getting canary again
+break *0x400C2E
+
+
+# before divide 16
+break *0x400C69
+
+# right after we run process B, which sets a new buffer size
+break *0x400CB8
+
+
+# break end of ewnme
+break *0x400d3d
+
+
+
+
+# Victory address = 0x400D6D 
