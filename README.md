@@ -1,4 +1,4 @@
-# Tribe Hack -- ManTech CTF challenge (4/4 challenges) *
+# Tribe Hack -- ManTech CTF challenge (4/4 challenges completed) *
 
 * Update: I was able to finished the fourth challenge by teaming up with Cedar Ren (http://github.com/renxida)
 
