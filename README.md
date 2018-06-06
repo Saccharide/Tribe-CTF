@@ -6,3 +6,6 @@ This is the first CTF that I attend to, it was really fun! I was able to solve 3
 
 
 Great shout out to Carl Petty form ManTech for guiding me through this event! (really nice and knowledgable guy!)
+
+## Author
+**Saccharide**
